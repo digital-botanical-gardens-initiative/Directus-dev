@@ -24,7 +24,7 @@ services:
     image: directus/directus:latest
     restart: always
     ports:
-      - 8056:8055
+      - 8057:8055
     volumes:
       - ${DIRECTUS_LOCATION}:/directus/uploads
       - ${DIRECTUS_LOCATION}/extensions:/directus/extensions
